@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Find_first_and_last_position {
+public class Practice2_Find_first_and_last_position {
     int firstPostion = -1;
     int lastPosition =-1;
     int currentPosition =-1;
@@ -29,9 +29,8 @@ public class Find_first_and_last_position {
                 expected.add(firstPostion);
             }
         });
-        expected.add(lastPosition);
+        expected.add(lastPosition);  
         System.out.println(expected);
         return expected;
     }
-
 }
