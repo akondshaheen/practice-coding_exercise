@@ -6,12 +6,10 @@ import java.util.List;
 import java.util.Set;
 
 public class Practice1_Anagram {
-
-    public static void main(String[] args) {
-      anagram("garden","danger");
-    }
-
-    public static boolean anagram(String firstWord, String secondWord){
+//Time complexity T(n)=O(n)+O(n)+O(n)=O(n);
+//Space complexity S(n)= O(n)+O(n)=O(n) 
+ 
+    public boolean anagram(String firstWord, String secondWord){
         if(firstWord.length()!=secondWord.length()){
             return false;
         }
