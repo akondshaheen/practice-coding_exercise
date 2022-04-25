@@ -1,5 +1,6 @@
 package Practices;
 
+
 import java.util.Arrays;
 import java.util.Hashtable;
 import java.util.List;
@@ -11,6 +12,7 @@ public class Practice1_Anagram {
  
     public boolean anagram(String firstWord, String secondWord){
         if(firstWord.length()!=secondWord.length()){
+            System.out.println("Practice1 - Anagram: False");
             return false;
         }
         Hashtable<String, Integer> firstTable = new Hashtable<>();
@@ -38,9 +40,11 @@ public class Practice1_Anagram {
         Set<String> elementKey = firstTable.keySet();
         for(String el: elementKey){
         if(firstTable.get(el)!=secondTable.get(el)){
-                return false;
+            System.out.println("Practice1 - Anagram: False");
+            return false;
             }
         }
+        System.out.println("Practice1 - Anagram: True");
         return true;
     }
 }
