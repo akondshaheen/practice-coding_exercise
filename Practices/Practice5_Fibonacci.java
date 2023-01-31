@@ -21,11 +21,7 @@ public class Practice5_Fibonacci {
             return memo.get(n);
         }
         if(n<=2){return 1;}
-
-
-        System.out.println("hash0  "+memo);
         memo.put(n, findFibonacciWithMemoization(n-1));
-        System.out.println("hash  "+memo);
         return memo.get(n);
     }
 }
