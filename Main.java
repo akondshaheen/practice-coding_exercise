@@ -10,7 +10,6 @@ public class Main {
     private static List<Integer> kthLargestNumbers = Arrays.asList(1, 2, 5, 5, 22, 4, 0, 7, 9);
     private static String practice8_NumberList = "1 2 5 3 7 8 6 4";
 
-
     private static Practice1_Anagram practice1_Anagram = new Practice1_Anagram();
     private static Practice2_Find_Position practice2_find_position = new Practice2_Find_Position();
     private static Practice3_KthLargestElement practice3_kthLargestElement = new Practice3_KthLargestElement();
