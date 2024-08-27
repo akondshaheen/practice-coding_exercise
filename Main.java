@@ -29,13 +29,17 @@ public class Main {
     private static Practice12_IsPalindrome practice12IsPalindrome = new Practice12_IsPalindrome();
     private static Practice13_RomanToInteger practice13RomanToInteger = new Practice13_RomanToInteger();
     private static Algorithm01_RecursiveMultiplication algorithm01_recursiveMultiplication = new Algorithm01_RecursiveMultiplication();
-
+    private static Practice15_PrimeNumber practice15PrimeNumber = new Practice15_PrimeNumber();
+    private static Practice16_SumOfDigits practice16SumOfDigits=new Practice16_SumOfDigits();
     public static void main(String[] args) {
 
+practice16SumOfDigits.calculateSum(156);
+      /*
+      practice5_fibonacci.findFibonacci(7);
 
+      int result = practice13RomanToInteger.convertInt("D");
+        practice15PrimeNumber.isPrime(29);
 
-        int result = practice13RomanToInteger.convertInt("D");
-        /*
         BigInteger results = algorithm01_recursiveMultiplication.calculateMultiplication(x, y);
         System.out.println(results + "--------------------------------");
         practice12IsPalindrome.isPalindrome(123123);
