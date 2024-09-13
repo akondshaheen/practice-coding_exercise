@@ -61,9 +61,7 @@ public class Practice14_Proper_MergeSort {
         }
         for (int i = 0; i < unsortedArray.length; i++) {
             System.out.print(unsortedArray[i]+" ");
-
         }
         System.out.println();
     }
-
 }
