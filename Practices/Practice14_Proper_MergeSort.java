@@ -1,9 +1,5 @@
 package Practices;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 public class Practice14_Proper_MergeSort {
 
     public void mergeSort(int[] unsortedArray, int lowIndex, int highIndex) {
