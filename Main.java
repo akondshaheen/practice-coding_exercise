@@ -11,6 +11,7 @@ public class Main {
     private static List<Integer> numbersToFindPosition = Arrays.asList(1, 2, 5, 5, 5, 5, 5, 5, 7, 9);
     private static List<Integer> kthLargestNumbers = Arrays.asList(1, 2, 5, 5, 22, 4, 0, 7, 9);
     private static String practice8_NumberList = "1 2 5 3 7 8 6 4";
+    public static final int [] mergeSortedArray = new int[]{3,2,5,1,4};
 
     private static final String x = "3141592653589793238462643383279502884197169399375105820974944592";
     private static final String y = "2718281828459045235360287471352662497757247093699959574966967627";
@@ -30,16 +31,31 @@ public class Main {
     private static Practice13_RomanToInteger practice13RomanToInteger = new Practice13_RomanToInteger();
     private static Algorithm01_RecursiveMultiplication algorithm01_recursiveMultiplication = new Algorithm01_RecursiveMultiplication();
     private static Practice15_PrimeNumber practice15PrimeNumber = new Practice15_PrimeNumber();
-    private static Practice16_SumOfDigits practice16SumOfDigits=new Practice16_SumOfDigits();
+    private static Practice16_SumOfDigits practice16SumOfDigits = new Practice16_SumOfDigits();
+    public static Practice17_ReverseDigits practice17_reverseDigit = new Practice17_ReverseDigits();
+    private static Practice18_ArmstrongNumber practice18_armstrongNumber=new Practice18_ArmstrongNumber();
+    private static Practice19_Pattern01 practice19_pattern01 = new Practice19_Pattern01();
+    private static Practice20_Pattern02 practice20_pattern02 = new Practice20_Pattern02();
+    private static Practice14_Proper_MergeSort practice14ProperMergeSort=new Practice14_Proper_MergeSort();
+
+
     public static void main(String[] args) {
 
-practice16SumOfDigits.calculateSum(156);
-      /*
-      practice5_fibonacci.findFibonacci(7);
+        //practice20_pattern02.getPattern02(4);
 
-      int result = practice13RomanToInteger.convertInt("D");
+        practice14ProperMergeSort.mergeSort(mergeSortedArray,0,4);
+
+
+
+
+        /*
+        practice19_pattern01.getPattern(4);
+        practice18_armstrongNumber.isArmstrongNumber(153);
+        practice17_reverseDigit.reverseDigit(123);
+        practice16SumOfDigits.calculateSum(123);
+        practice5_fibonacci.findFibonacci(7);
+        int result = practice13RomanToInteger.convertInt("D");
         practice15PrimeNumber.isPrime(29);
-
         BigInteger results = algorithm01_recursiveMultiplication.calculateMultiplication(x, y);
         System.out.println(results + "--------------------------------");
         practice12IsPalindrome.isPalindrome(123123);

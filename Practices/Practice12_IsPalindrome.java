@@ -8,7 +8,7 @@ public class Practice12_IsPalindrome {
         boolean result = false;
         char[] number = ("" + x).toCharArray();
         if (x < 0) {
-            return false;
+            return false;//3223
         }
         if (number.length == 1) {
             return true;
