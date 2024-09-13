@@ -39,7 +39,6 @@ public class Practice14_Proper_MergeSort {
                 temp[tempIndex]=unsortedArray[startIndexSecondArray];
                 tempIndex++;
                 startIndexSecondArray++;
-
             }
         }
 
