@@ -36,7 +36,7 @@ public class Main {
     private static Practice18_ArmstrongNumber practice18_armstrongNumber=new Practice18_ArmstrongNumber();
     private static Practice19_Pattern01 practice19_pattern01 = new Practice19_Pattern01();
     private static Practice20_Pattern02 practice20_pattern02 = new Practice20_Pattern02();
-    private static Practice14_Proper_MergeSort practice14ProperMergeSort=new Practice14_Proper_MergeSort();
+    private static Practice14_MergeSort practice14ProperMergeSort=new Practice14_MergeSort();
 
 
     public static void main(String[] args) {
